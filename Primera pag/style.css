@@ -1,0 +1,51 @@
+*{
+
+}
+
+h1{
+    background-color: beige;
+    color: rgb(247, 154, 247);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 1.5em;
+    margin: 0;
+    }
+    p{
+    background-color:#00E7FF ;
+    border-radius: 5px;
+    
+    }
+    #special{
+    background-color: #007A78;
+    color: white;
+    }
+    #other{
+    background-color: #4a1e4e;
+    color: #F6A800;
+    }
+    .city{
+    background-color: #e9ad8b;
+    color: #00aaa7;
+    }
+    
+    a:link{
+    
+    }
+    a:visited{
+    
+    }
+    a:hover{
+    
+    }
+    a:active{
+    
+    }
+    h5,h6{
+        background-color: chartreuse;
+    }
+    ol li{
+        background-color: pink;
+    }
+    p>em{
+        background-color: maroon;
+    }
+    

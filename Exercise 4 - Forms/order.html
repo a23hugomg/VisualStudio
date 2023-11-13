@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Forms Review</title>
+    <link rel="shortcut icon" href="./img/burger-svgrepo-com.svg" type="image/x-icon">
+</head>
+<body>
+    <hr>
+    <img src="./img/burger-svgrepo-com.svg" width="150">
+    <hr>
+    <Form>
+        <h1>Create a burger!</h1>
+        <label>What type of protein would you like?
+            <input type="text" name="protein" id="protein">
+        </label>
+        <hr>
+        <label>How many patties would you like?
+            <input type="text" name="patties" id="patties">
+        </label>
+        <hr>
+        <label>How do you want your patty cooked
+            <br>
+            <t1>Rare</t1><input type="range" name="patty" id="patty"><t1>Well done!</t1>
+        </label>
+        <hr>
+        <label>What toppings would you like?
+            <br>
+            <t1>Lettuce</t1><input type="checkbox" name="Lettuce" id="Lettuce">
+            <t1>Tomato</t1><input type="checkbox" name="tomato" id="tomato">
+            <t1>Onion</t1><input type="checkbox" name="onion" id="onion">
+        </label>
+        <hr>
+        <label>Would you like to add cheese?
+            <input type="radio" name="yes" id="yes"><t1>Yes</t1>
+            <input type="radio" name="no" id="no"><t1>No</t1>
+        </label>
+        <hr>
+        <label>What type of bun would you like?
+            <select name="bun" id="bun">
+                <option value="">Sesame</option>
+                <option value="">Potato</option>
+                <option value="">Pretzel</option>
+            </select>
+        </label>
+        <hr>
+        <label>What type of sauce would you like?
+            <input list="sauce" id="sauce" name="sauce"/>
+            <datalist id="sauce">
+                <option value="Ketchup"></option>
+                <option value="Mayo"></option>
+                <option value="Mustard"></option>
+            </datalist>
+        </label>
+        <hr>
+        <label>Anithing else do you want to?
+            <br>
+            <textarea name="extra" id="extra" cols="40" rows="3"></textarea>
+        </label>
+        <hr>
+        <label>
+            <input type="submit" value="submit">
+        </label>
+    </Form>
+
+</body>
+</html>
