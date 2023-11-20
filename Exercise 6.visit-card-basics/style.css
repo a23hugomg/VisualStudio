@@ -10,8 +10,6 @@ body{
 }
 h1{
     font-family: "Agbalumo";
-    /*display: flex;
-    justify-content: center;*/  
     color: rgb(236, 67, 186);
     font-size: 30px;
 }

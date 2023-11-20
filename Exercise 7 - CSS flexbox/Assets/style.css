@@ -1,0 +1,37 @@
+html,body{
+    width: 100%;
+}
+body{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    align-content: center;
+}
+h1{
+    font-family: "Vina Sans";
+}
+header{
+    background-color:#6F3A1B;
+    width: 1000px;
+    color:white;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
+main{
+    display: flex;
+    align-items: center;
+    flex-direction: row ;
+    align-content: center;
+}
+footer{
+    background-color:#6F3A1B;
+    width: 1000px;
+    color:white;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    display: flex;
+    justify-content: center;
+}
